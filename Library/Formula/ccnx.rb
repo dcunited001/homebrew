@@ -5,9 +5,14 @@ require 'formula'
 
 class Ccnx < Formula
   homepage 'http://www.ccnx.org/'
-  url 'http://www.ccnx.org/releases/ccnx-0.7.1.tar.gz'
-  version '0.7.1'
-  sha1 '4ae70dfaf1ccf287c9ab905288267e5ef59b00f6'
+
+  url 'http://www.ccnx.org/releases/ccnx-0.7.2.tar.gz'
+  version '0.7.2'
+  sha1 '3a6fd14be149b9c8c1a46c56c29df3833686ceb5'
+
+  # url 'http://www.ccnx.org/releases/ccnx-0.7.1.tar.gz'
+  # version '0.7.1'
+  # sha1 '4ae70dfaf1ccf287c9ab905288267e5ef59b00f6'
 
   depends_on 'git'
   depends_on 'autoconf'
