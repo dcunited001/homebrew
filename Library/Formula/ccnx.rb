@@ -5,6 +5,7 @@ require 'formula'
 
 # right now i'm having issues on osx 10.8.2 & java 1.7
 # - ccngetfile/ccnputfile isn't being installed (java)
+# - ccnx doesn't make the java file without `sudo make install`
 
 class Ccnx < Formula
   homepage 'http://www.ccnx.org/'
