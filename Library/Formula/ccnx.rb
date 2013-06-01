@@ -3,6 +3,9 @@ require 'formula'
 # for now, install with:
 #    `brew install https://raw.github.com/dcunited001/homebrew/dc/ccn-keggar/Library/Formula/ccnx.rb`
 
+# right now i'm having issues on osx 10.8.2 & java 1.7
+# - ccngetfile/ccnputfile isn't being installed (java)
+
 class Ccnx < Formula
   homepage 'http://www.ccnx.org/'
 
